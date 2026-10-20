@@ -1,0 +1,23 @@
+# @Author : 孜然
+# @Url : zrv7.com
+# @Qq : 2937978586
+# @User : .gitignore
+# @Copyright (c) Cumin All Rights Reserved.
+
+# ===== 本地数据库配置（只提交 config.sample.php）=====
+config.php
+
+# ===== IDE / 系统垃圾 =====
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ===== 备份与临时文件 =====
+*.bak
+*.zrtmp
+*.log
+
+# ===== 运行期生成 =====
+runtime/
+cache/

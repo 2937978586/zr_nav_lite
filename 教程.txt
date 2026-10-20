@@ -1,0 +1,16 @@
+# @Author : 孜然
+# @Url : zrv7.com
+# @Qq : 2937978586
+# @User : 教程.txt
+# @Copyright (c) Cumin All Rights Reserved.
+
+//有不会的可以加QQ2937978586
+//官网zrv7.com
+账号admin 密码123456
+
+先打开文件夹〔zrdh〕然后将那个sql导入数据库，然后按照下面步骤来
+
+如果你是主机使用的阿帕奇伪静态，只要填写config.php的信息即可
+
+如果使用的是宝塔的伪静态那么需要写下以下伪静态，并配置好config.php文件即可（需要删除.htaccess文件）
+rewrite ^/index.html$ /index.php;rewrite ^/about.html$ /about.php;rewrite ^/search.html$ /search.php;rewrite ^/ranking.html$ /ranking.php;rewrite ^/apply.html$ /apply.php;rewrite ^/404.html$ /404.php;rewrite ^/sort([1-9]+[0-9]*).html$ /sort.php?id=$1;rewrite ^/sort([a-zA-Z]+).html$ /sort.php?alias=$1;rewrite ^/site_([1-9]+[0-9]*).html$ /site.php?id=$1;

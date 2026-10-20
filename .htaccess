@@ -1,0 +1,17 @@
+# @Author : 孜然
+# @Url : zrv7.com
+# @Qq : 2937978586
+# @User : .htaccess
+# @Copyright (c) Cumin All Rights Reserved.
+
+ RewriteEngine On
+rewritebase /
+RewriteRule ^index.\html /index\.php [L,NC]
+RewriteRule ^top\.html top\.php [L,NC]
+RewriteRule ^about\.html about\.php [L,NC]
+RewriteRule ^search\.html search\.php [L,NC]
+RewriteRule ^apply\.html apply\.php [L,NC]
+RewriteRule ^404\.html 404\.php [L,NC]
+RewriteRule ^sort([0-9]+)\.html sort\.php?id=$1 [L,NC]
+RewriteRule ^sort([a-zA-Z]+)\.html sort\.php?alias=$1 [L,NC]
+RewriteRule ^site_([0-9]+)\.html site\.php?id=$1 [L,NC]
